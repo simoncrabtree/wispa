@@ -7,6 +7,10 @@ angular.module('wispaApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/menu', {
+        templateUrl: 'views/menu.html',
+        controller: 'MenuCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
