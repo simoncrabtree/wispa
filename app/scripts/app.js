@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('app', [])
+angular.module('wispaApp', [])
   .config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
